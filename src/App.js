@@ -154,6 +154,7 @@ function App() {
 
       <h2 id="timer-label">{isOnBreak ? 'Break' : 'Session'}</h2>
 
+
       <div id="time-left">{convertSecsToMins(isOnBreak ? breakSecondsLeft : secondsLeft)}</div>
 
       <audio id="beep" ref={myAudio} src={'https://sampleswap.org/samples-ghost/SOUND%20EFFECTS%20and%20NOISES/Cheesy%20Lo-Fi%20Sound%20Effects/72[kb]Echo-Harp.aif.mp3'} type='audio' />
